@@ -4,6 +4,34 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #000000;
+    background-color: #baeaf9;
   }
+
+  #filestructure {
+    margin-top: 1%;
+    padding: 5px;
+    width:40%;
+    height: 45%;
+  }
+
+#screenshot1{
+  margin-top: 5%;
+  padding: 10px;
+  width:80%;
+  height: 90%;
+}
+
+#screenshot2 {
+  margin-top: 5%;
+  padding: 10px;
+  width:80%;
+  height: 90%;
+}
+
+#screenshot3 {
+  margin-top: 5%;
+  padding: 10px;
+  width:80%;
+  height: 90%;
+}
