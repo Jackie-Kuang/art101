@@ -11,7 +11,7 @@
 h3, output {
   padding: 10px;
   margin-bottom: 5px;
-  border: solid black;
-
-
+  border: solid 1px #888;
+  background-color: #DDD8C4;
 }
+

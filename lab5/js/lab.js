@@ -24,6 +24,7 @@
 // main();
 
 // Define Variables
+
 let carName = "Toyota";
 console.log("Make: " + carName);
 
@@ -41,9 +42,8 @@ let currentYear = 2025;
 let carAge = currentYear - carYear;
 console.log ("Age: ", carAge);
 
-// Output
 document.writeln("Make: " + carName + "<br>");
 document.writeln("Model: " + carModel + "<br>");
 document.writeln("Color: " + carColor + "<br>");
-document.writeln("Year: " + carYear + "<br>");
-document.writeln("Age: " + carAge +  "<br>");
+document.writeln("Year: " + currentYear + "<br>");
+document.writeln("Age: " + carAge + "<br>");
