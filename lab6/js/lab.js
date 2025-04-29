@@ -1,6 +1,9 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/**
+* index.js - Lab 6: Arrays and Objects
+* Implementing arrays and objects with out forms of transportation
+* Author: Jackie Kuang jhkuang@ucsc.edu
+* Date: 4/21/2025
+*/
 
 // Constants
 
@@ -19,3 +22,23 @@ function main() {
 
 // let's get this party started
 main();
+
+// Defining variables
+let myTransport = ["Car", " Bus"];
+
+// Creating object for my main ride
+let myMainRide = {
+  make: "Toyota",
+  model: "GR86",
+  color: "Neptune Blue",
+  year: 2023,
+  age: function() {
+    return 2025 - this.yeaer;
+  }
+}
+
+// output
+document.writeln("Kinds of transportatoin I use: ", myTransport, "</br>");
+// write object to the document
+document.writeln("My Main Ride: <pre>",
+  JSON.stringify(myMainRide, null, '\t'), "<pre>");
