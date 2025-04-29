@@ -33,7 +33,7 @@ let myMainRide = {
   color: "Neptune Blue",
   year: 2023,
   age: function() {
-    return 2025 - this.yeaer;
+    return 2025 - myMainRide.year;
   }
 }
 
