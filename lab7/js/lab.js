@@ -9,16 +9,26 @@
 
 // Functions
 
-// sortUserName function takes the user's input and sorts  the letters of their name
+// sortUserName function takes the user's input and sorts the letters of their name
 function sortUserName(userName) {
 
+    //splits userName string into array of characteres
+    //sorts the array alphabetically
+    //rejoins the array back into a single string
     return userName.split("").sort().join("");
   }
 
   function main() {
+    //window prompt where user types their name and stores it in userName
     var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
+
+    //displays original userName
     document.writeln("This was you typed before: " + userName + "</br></br>");
+
+    //calls sortUserName with userName and stores theresults in sortedName
     var sortedName = sortUserName(userName);
+
+    //displays sortedName
     document.writeln(" Here is your sorted name: " + sortedName + "</br></br>");
   }
   
