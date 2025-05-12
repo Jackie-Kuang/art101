@@ -1,0 +1,24 @@
+.output {
+    font-size: 20px;
+}
+
+.special {
+    background-color: rgb(255, 255, 183);
+    border: dashed 50px rgb(213, 255, 215);
+    color: rgb(255, 34, 0);
+    font-weight: bold;
+}
+
+.special2 {
+    background-color: rgb(217, 244, 254);
+    border: dotted 50px rgb(36, 43, 252);
+    color: rgb(4, 235, 247);
+    font-weight: bold;
+}
+
+.special3 {
+    background-color: rgb(85, 2, 97);
+    border: dotted 50px rgb(48, 0, 57);
+    color: rgb(215, 4, 247);
+    font-weight: bold;
+}
