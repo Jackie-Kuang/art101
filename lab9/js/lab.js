@@ -34,7 +34,7 @@ $("#problems").append("<button id='button-problems'>Make Special</button>");
 $("#button-problems").click(function(){
     //now add (or subtract) the "special" class to the section
     $("#problems").toggleClass("special2");
-});
+}); 
 
 //add button to results section
 $("#results").append("<button id='button-results'>Make Special</button>");
