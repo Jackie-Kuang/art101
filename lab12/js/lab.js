@@ -10,16 +10,12 @@ function myFunction(param1, param2) {
     // some code here
     // return results;
   }
-  
   function main() {
     console.log("Main function started.");
     // the code that makes everything happen
   }
-
 main();
-
 function sortingHat(num){
-   
   let mod = num % 4;
 
   let character = {
@@ -45,7 +41,6 @@ function sortingHat(num){
   } 
   return character;
 }
-
 
 //attach click handler to submit button
 $("#button").click(function(){
