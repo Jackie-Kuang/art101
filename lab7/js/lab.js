@@ -23,7 +23,7 @@ function sortUserName(userName) {
     var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
 
 
-    document.open()
+    document.open();
     //displays original userName
     document.writeln("This was you typed before: " + userName + "</br></br>");
 
