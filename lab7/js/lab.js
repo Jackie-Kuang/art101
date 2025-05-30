@@ -23,15 +23,15 @@ function sortUserName(userName) {
     var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
 
 
-    document.open();
+  
     //displays original userName
-    document.writeln("This was you typed before: " + userName + "</br></br>");
+    console.log("This was you typed before: " + userName + "</br></br>");
 
     //calls sortUserName with userName and stores theresults in sortedName
     var sortedName = sortUserName(userName);
 
     //displays sortedName
-    document.writeln(" Here is your sorted name: " + sortedName + "</br></br>");
+     console.log(" Here is your sorted name: " + sortedName + "</br></br>");
   }
   
 //call the function
