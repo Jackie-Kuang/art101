@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/site.css">
+		<link rel="stylesheet" type="text/css" href="css/lab.css">
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<script type="text/javascript" src="js/lab.js" DEFER></script>
+	</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 14: Debugging</h1>
+			<div class="minor-section" id="challenge">
+					<h2>Challenge</h2>
+					<p>Our challenge for this assignment was to go back into prior labs and debug any errors we might have had.</p>
+			</div>
+
+			<div class="minor-section" id="problems">
+					<h2>Problems</h2>
+					<p>I had to deal with my Lab 7: Functions and I had 4 errors about failing to execute 'write' on Document.</p>
+			</div>
+
+			<div class="minor-section" id="results">
+					<h2>Results</h2>
+					<p>My results are shown below.</p>
+					<h3>Debugging</h3>
+					<img id="img" src="img/debug1.png">
+					<p>I don't know what was happening with this error, but it didn't effect my website at all since it still worked. But on the console this error would pop up and according to WesBot it is because my JS file is loading asynchronously.</p>
+					<img id="img" src="img/debug2.png">
+					<p>To resolve this error I changed document.writeln to console.log and it got rid of the errors.</p>
+					<img id="img" src="img/debug3.png">
+
+			</div>
+		</section>
+
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+			<ul>
+				<li><a href="../lab2/index.html">Lab 2</a></li>
+				<li><a href="../lab3/index.html">Lab 3</a></li>
+				<li><a href="../lab4/index.html">Lab 4</a></li>
+				<li><a href="../lab5/index.html">Lab 5</a></li>
+				<li><a href="../lab6/index.html">Lab 6</a></li>
+                <li><a href="../lab7/index.html">Lab 7</a></li>
+				<li><a href="../lab8/index.html">Lab 8</a></li>
+				<li><a href="../lab9/index.html">Lab 9</a></li>
+
+			 </ul>
+		</nav>
+	</main>
+</body>
+</html>
