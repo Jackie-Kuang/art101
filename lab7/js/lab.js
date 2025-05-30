@@ -22,6 +22,8 @@ function sortUserName(userName) {
     //window prompt where user types their name and stores it in userName
     var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
 
+
+    document.open()
     //displays original userName
     document.writeln("This was you typed before: " + userName + "</br></br>");
 
